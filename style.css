@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Isra_font;
+    src: url('./font/Isra_font-Regular.ttf');
+}
+
+body {
+  background: #fff;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+    min-height: 600px;
+    max-height: 800px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.welcome {
+  overflow: hidden;
+  font: 1.2rem "Finger Paint";
+  text-align: center;
+  color: transparent;
+  backface-visibility: hidden;
+}
+
+.normal {
+  display: inline-block;
+  text-shadow: 0 0 0 black;
+}
+
+#heart {
+  margin-top: 1rem;
+  font-size: 30px;
+}
+
+.smoke {
+  animation: smoky 3s 0s both;
+}
+
+.smoke:nth-child(even) {
+  animation-name: smoky-mirror;
+}
+
+.container-letter, .container-video{
+    display: none;
+    min-height: 600px;
+    max-height: 800px;
+}
+
+p{
+    font: 2rem Isra_font;
+    max-width: 280px;
+}
+
+@keyframes smoky {
+  60% {
+    text-shadow: 0 0 40px whitesmoke;
+  }
+  to {
+    transform: translate3d(15rem, -8rem, 0) rotate(-40deg) skewX(70deg)
+      scale(1.5);
+    text-shadow: 0 0 20px whitesmoke;
+    opacity: 0;
+  }
+}
+
+@keyframes smoky-mirror {
+  60% {
+    text-shadow: 0 0 40px whitesmoke;
+  }
+  to {
+    transform: translate3d(18rem, -8rem, 0) rotate(-40deg) skewX(-70deg)
+      scale(2);
+    text-shadow: 0 0 20px whitesmoke;
+    opacity: 0;
+  }
+}
+
+@for $item from 1 through 21 {
+  span:nth-of-type(#{$item}) {
+    animation-delay: #{(3 + ($item/10))}s;
+  }
+}
