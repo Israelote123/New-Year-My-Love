@@ -38,6 +38,10 @@ body {
   font-size: 30px;
 }
 
+#heart:hover {
+  cursor: pointer;
+}
+
 .smoke {
   animation: smoky 3s 0s both;
 }
