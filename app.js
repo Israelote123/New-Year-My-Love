@@ -16,7 +16,7 @@ const letter = [
   "Hemos estado en el cielo, hemos estado en lo mas bajo, nos hemos separado...",
   "Pero a pesar de todo, seguimos aquí, encontrandonos, esperando que ahora sea el momento, viéndonos a través de pantallas y aun así,",
   "sentir esa calidez, esa confianza, ese sentimiento llamado amor, creciendo juntos, a través del tiempo, paso a paso",
-  "sosteniéndonos incluso sin darnos cuenta de lo tanto que nos apoyamos, decirnos tanto con un simple mensaje de voz, pero que no haya palabras y terminamos diciendo solo un\nTE AMO",
+  "sosteniéndonos incluso sin darnos cuenta de lo tanto que nos apoyamos, decirnos tanto con un simple mensaje de voz, querer decir tanto, pero que no haya palabras y terminamos diciendo solo un\nTE AMO",
   "Gracias por tantos recuerdos, tanta felicidad, gracias por este gran año estar a mi lado",
   "Le ruego a Dios nos de muchos años mas juntos, y que sin importar lo que pase, pasemos sobre cualquier dificultad juntos",
   'Veras que un día, ya no sera solo detras de una pantalla, \nmi pequeña niña <i class="far fa-heart" style="font-size: 1rem;"></i>',
